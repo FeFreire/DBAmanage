@@ -1,0 +1,81 @@
+.course_card {
+  padding: 1em;
+  border: 1px solid #7a7a7a;
+  border-radius: 5px;
+  width: 24%;
+  margin: 0.5%;
+}
+
+.course_card h4 {
+  background-color: #222;
+  color: rgb(63, 72, 204);
+  padding: 0.4em;
+  margin-bottom: 1.3em;
+  font-size: 1.3em;
+  /* text-align: center; */
+}
+
+.course_card p {
+  color: #7a7a7a;
+  margin-bottom: 1em;
+}
+
+.course_card p span {
+  font-weight: bold;
+}
+
+.course_text {
+  display: flex;
+  align-items: center;
+}
+
+.course_text span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 5px;
+}
+
+.course_text .morning {
+    background-color: rgb(63, 72, 204);
+}
+
+.course_text .afternoon {
+    background-color: orange;
+}
+
+.course_card_actions{
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.course_card_actions a, .course_card_actions button {
+    text-decoration: none;
+    background-color: #fff;
+    color: #222;
+    font-size: .9em;
+    padding: .6em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+}
+
+
+.course_card_actions svg { /*icons*/
+    margin-right: .5em;
+}
+
+.course_card_actions a:hover,
+.course_card_actions button:hover { 
+    background-color: #222;
+    color: rgb(63, 72, 204);
+}
+
+

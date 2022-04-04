@@ -1,0 +1,15 @@
+.newCourse_container {
+    width: 450px;
+    margin: 0 auto; 
+    padding: 3em;
+
+}
+
+.newCourse_container h1{
+    margin-bottom: .5em;
+}
+
+.newCourse_container p{
+   color: #7b7b7b;
+}
+

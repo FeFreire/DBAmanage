@@ -1,0 +1,128 @@
+{
+  "course": [
+    {
+      "courseName": "JavaScript",
+      "duration": "2",
+      "day": {
+        "id": "2",
+        "name": "Tuesday"
+      },
+      "time": {
+        "id": "2",
+        "name": "afternoon"
+      },
+      "person": {
+        "id": "2",
+        "name": "John"
+      },
+      "id": 2
+    },
+    {
+      "courseName": "PHP",
+      "duration": "1",
+      "day": {
+        "id": "3",
+        "name": "Wednesday"
+      },
+      "time": {
+        "id": "1",
+        "name": "morning"
+      },
+      "person": {
+        "id": "1",
+        "name": "Fernando"
+      },
+      "id": 3
+    }
+  ],
+  "person": [
+    {
+      "typeOfPerson": {
+        "id": "1",
+        "name": "instructor"
+      },
+      "personName": "Fernando",
+      "personalID": "123456",
+      "dayAvailableAfternoon": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "dayAvailableMorning": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "id": 1
+    },
+    {
+      "typeOfPerson": {
+        "id": "1",
+        "name": "instructor"
+      },
+      "personName": "John",
+      "personalID": "123456",
+      "dayAvailableAfternoon": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "dayAvailableMorning": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "id": 2
+    }
+  ],
+  "typeOfPerson": [
+    {
+      "id": 1,
+      "name": "instructor"
+    },
+    {
+      "id": 2,
+      "name": "student"
+    }
+  ],
+  "time": [
+    {
+      "id": 1,
+      "name": "morning"
+    },
+    {
+      "id": 2,
+      "name": "afternoon"
+    }
+  ],
+  "day": [
+    {
+      "id": 1,
+      "name": "Monday"
+    },
+    {
+      "id": 2,
+      "name": "Tuesday"
+    },
+    {
+      "id": 3,
+      "name": "Wednesday"
+    },
+    {
+      "id": 4,
+      "name": "Thursday"
+    },
+    {
+      "id": 5,
+      "name": "Friday"
+    }
+  ]
+}
